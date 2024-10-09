@@ -1,0 +1,211 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6
+					]
+				},
+				{
+					"build" : "test/googletest-1.15.2",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-test.googletest-1.15.2-Debug-09a736f5d14c2f093f8b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "test/googletest-1.15.2"
+				},
+				{
+					"build" : "test/googletest-1.15.2/googlemock",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-test.googletest-1.15.2.googlemock-Debug-9954eca694c6ccec90fb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "test/googletest-1.15.2/googlemock",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "test/googletest-1.15.2/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-test.googletest-1.15.2.googletest-Debug-e840f35352dbc49f72bd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "test/googletest-1.15.2/googletest",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "untitled",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gmock",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "gtest",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "241001_15665::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-241001_15665-Debug-3c4e7385752040bd3ffe.json",
+					"name" : "241001_15665",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock::@e15238c609ea8a0c7438",
+					"jsonFile" : "target-gmock-Debug-8410282a6095243514fb.json",
+					"name" : "gmock",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock_main::@e15238c609ea8a0c7438",
+					"jsonFile" : "target-gmock_main-Debug-ea76d51c944cd197e8ea.json",
+					"name" : "gmock_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest::@8c4d6db48b5866bb11c9",
+					"jsonFile" : "target-gtest-Debug-602624df143674ce8204.json",
+					"name" : "gtest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest_main::@8c4d6db48b5866bb11c9",
+					"jsonFile" : "target-gtest_main-Debug-5377f8f1f20a8769fbf1.json",
+					"name" : "gtest_main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "runTests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-runTests-Debug-73277d9fc0d698fb7af6.json",
+					"name" : "runTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sum-Debug-f9fa84042996e56fae2d.json",
+					"name" : "sum",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/alswk/CLionProjects/Algorithm/cmake-build-debug-visual-studio",
+		"source" : "C:/Users/alswk/CLionProjects/Algorithm"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
