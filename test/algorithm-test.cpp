@@ -51,6 +51,7 @@ TEST(ALGORITHM_TEST, INTEGRATED_TEST) {
 
                         cout.rdbuf(streamBuf);
 
+                        ss.clear();
                         ss.str(oss.str());
 
                         isOssInited = true;

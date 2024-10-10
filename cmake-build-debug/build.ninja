@@ -49,9 +49,9 @@ cmake_ninja_workdir = C$:/Users/alswk/CLionProjects/Algorithm/cmake-build-debug/
 
 build cmake_object_order_depends_target_algorithm: phony || .
 
-build CMakeFiles/algorithm.dir/barkingdog/[0x09]BFS/241009-14442.cpp.obj: CXX_COMPILER__algorithm_unscanned_Debug C$:/Users/alswk/CLionProjects/Algorithm/barkingdog/[0x09]BFS/241009-14442.cpp || cmake_object_order_depends_target_algorithm
-  DEFINES = -DPROBLEM_FILE_NAME=\"barkingdog/[0x09]BFS/241009-14442\" -Dalgorithm_EXPORTS
-  DEP_FILE = CMakeFiles\algorithm.dir\barkingdog\[0x09]BFS\241009-14442.cpp.obj.d
+build CMakeFiles/algorithm.dir/barkingdog/[0x09]BFS/241010-16920.cpp.obj: CXX_COMPILER__algorithm_unscanned_Debug C$:/Users/alswk/CLionProjects/Algorithm/barkingdog/[0x09]BFS/241010-16920.cpp || cmake_object_order_depends_target_algorithm
+  DEFINES = -DPROBLEM_FILE_NAME=\"barkingdog/[0x09]BFS/241010-16920\" -Dalgorithm_EXPORTS
+  DEP_FILE = CMakeFiles\algorithm.dir\barkingdog\[0x09]BFS\241010-16920.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -IC:/Users/alswk/CLionProjects/Algorithm/test/googletest-1.15.2/googletest/include
   OBJECT_DIR = CMakeFiles\algorithm.dir
@@ -65,7 +65,7 @@ build CMakeFiles/algorithm.dir/barkingdog/[0x09]BFS/241009-14442.cpp.obj: CXX_CO
 #############################################
 # Link the shared library libalgorithm.dll
 
-build libalgorithm.dll libalgorithm.dll.a: CXX_SHARED_LIBRARY_LINKER__algorithm_Debug CMakeFiles/algorithm.dir/barkingdog/[0x09]BFS/241009-14442.cpp.obj
+build libalgorithm.dll libalgorithm.dll.a: CXX_SHARED_LIBRARY_LINKER__algorithm_Debug CMakeFiles/algorithm.dir/barkingdog/[0x09]BFS/241010-16920.cpp.obj
   LANGUAGE_COMPILE_FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\algorithm.dir
@@ -86,7 +86,7 @@ build libalgorithm.dll libalgorithm.dll.a: CXX_SHARED_LIBRARY_LINKER__algorithm_
 build cmake_object_order_depends_target_runTests: phony || cmake_object_order_depends_target_algorithm cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
 
 build CMakeFiles/runTests.dir/test/algorithm-test.cpp.obj: CXX_COMPILER__runTests_unscanned_Debug C$:/Users/alswk/CLionProjects/Algorithm/test/algorithm-test.cpp || cmake_object_order_depends_target_runTests
-  DEFINES = -DPROBLEM_FILE_NAME=\"barkingdog/[0x09]BFS/241009-14442\"
+  DEFINES = -DPROBLEM_FILE_NAME=\"barkingdog/[0x09]BFS/241010-16920\"
   DEP_FILE = CMakeFiles\runTests.dir\test\algorithm-test.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -isystem C:/Users/alswk/CLionProjects/Algorithm/test/googletest-1.15.2/googletest/include -isystem C:/Users/alswk/CLionProjects/Algorithm/test/googletest-1.15.2/googletest
@@ -121,7 +121,7 @@ build runTests.exe: CXX_EXECUTABLE_LINKER__runTests_Debug CMakeFiles/runTests.di
 build cmake_object_order_depends_target_241001-15665: phony || .
 
 build CMakeFiles/241001-15665.dir/Baekjoon/241001-15665.cpp.obj: CXX_COMPILER__241001-15665_unscanned_Debug C$:/Users/alswk/CLionProjects/Algorithm/Baekjoon/241001-15665.cpp || cmake_object_order_depends_target_241001-15665
-  DEFINES = -DPROBLEM_FILE_NAME=\"barkingdog/[0x09]BFS/241009-14442\"
+  DEFINES = -DPROBLEM_FILE_NAME=\"barkingdog/[0x09]BFS/241010-16920\"
   DEP_FILE = CMakeFiles\241001-15665.dir\Baekjoon\241001-15665.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -IC:/Users/alswk/CLionProjects/Algorithm/test/googletest-1.15.2/googletest/include
@@ -156,7 +156,7 @@ build 241001-15665.exe: CXX_EXECUTABLE_LINKER__241001-15665_Debug CMakeFiles/241
 build cmake_object_order_depends_target_241001-15666: phony || .
 
 build CMakeFiles/241001-15666.dir/Baekjoon/241001-15666.cpp.obj: CXX_COMPILER__241001-15666_unscanned_Debug C$:/Users/alswk/CLionProjects/Algorithm/Baekjoon/241001-15666.cpp || cmake_object_order_depends_target_241001-15666
-  DEFINES = -DPROBLEM_FILE_NAME=\"barkingdog/[0x09]BFS/241009-14442\"
+  DEFINES = -DPROBLEM_FILE_NAME=\"barkingdog/[0x09]BFS/241010-16920\"
   DEP_FILE = CMakeFiles\241001-15666.dir\Baekjoon\241001-15666.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -IC:/Users/alswk/CLionProjects/Algorithm/test/googletest-1.15.2/googletest/include
@@ -191,7 +191,7 @@ build 241001-15666.exe: CXX_EXECUTABLE_LINKER__241001-15666_Debug CMakeFiles/241
 build cmake_object_order_depends_target_241003-2493: phony || .
 
 build CMakeFiles/241003-2493.dir/barkingdog/[0x05]stack/241003-2493.cpp.obj: CXX_COMPILER__241003-2493_unscanned_Debug C$:/Users/alswk/CLionProjects/Algorithm/barkingdog/[0x05]stack/241003-2493.cpp || cmake_object_order_depends_target_241003-2493
-  DEFINES = -DPROBLEM_FILE_NAME=\"barkingdog/[0x09]BFS/241009-14442\"
+  DEFINES = -DPROBLEM_FILE_NAME=\"barkingdog/[0x09]BFS/241010-16920\"
   DEP_FILE = CMakeFiles\241003-2493.dir\barkingdog\[0x05]stack\241003-2493.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -IC:/Users/alswk/CLionProjects/Algorithm/test/googletest-1.15.2/googletest/include
@@ -226,7 +226,7 @@ build 241003-2493.exe: CXX_EXECUTABLE_LINKER__241003-2493_Debug CMakeFiles/24100
 build cmake_object_order_depends_target_241003-3015: phony || .
 
 build CMakeFiles/241003-3015.dir/barkingdog/[0x05]stack/241003-3015.cpp.obj: CXX_COMPILER__241003-3015_unscanned_Debug C$:/Users/alswk/CLionProjects/Algorithm/barkingdog/[0x05]stack/241003-3015.cpp || cmake_object_order_depends_target_241003-3015
-  DEFINES = -DPROBLEM_FILE_NAME=\"barkingdog/[0x09]BFS/241009-14442\"
+  DEFINES = -DPROBLEM_FILE_NAME=\"barkingdog/[0x09]BFS/241010-16920\"
   DEP_FILE = CMakeFiles\241003-3015.dir\barkingdog\[0x05]stack\241003-3015.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -IC:/Users/alswk/CLionProjects/Algorithm/test/googletest-1.15.2/googletest/include
@@ -261,7 +261,7 @@ build 241003-3015.exe: CXX_EXECUTABLE_LINKER__241003-3015_Debug CMakeFiles/24100
 build cmake_object_order_depends_target_241007-6549: phony || .
 
 build CMakeFiles/241007-6549.dir/barkingdog/[0x05]stack/241007-6549.cpp.obj: CXX_COMPILER__241007-6549_unscanned_Debug C$:/Users/alswk/CLionProjects/Algorithm/barkingdog/[0x05]stack/241007-6549.cpp || cmake_object_order_depends_target_241007-6549
-  DEFINES = -DPROBLEM_FILE_NAME=\"barkingdog/[0x09]BFS/241009-14442\"
+  DEFINES = -DPROBLEM_FILE_NAME=\"barkingdog/[0x09]BFS/241010-16920\"
   DEP_FILE = CMakeFiles\241007-6549.dir\barkingdog\[0x05]stack\241007-6549.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -IC:/Users/alswk/CLionProjects/Algorithm/test/googletest-1.15.2/googletest/include
@@ -296,7 +296,7 @@ build 241007-6549.exe: CXX_EXECUTABLE_LINKER__241007-6549_Debug CMakeFiles/24100
 build cmake_object_order_depends_target_241009-5430: phony || .
 
 build CMakeFiles/241009-5430.dir/barkingdog/[0x07]dequeue/241009-5430.cpp.obj: CXX_COMPILER__241009-5430_unscanned_Debug C$:/Users/alswk/CLionProjects/Algorithm/barkingdog/[0x07]dequeue/241009-5430.cpp || cmake_object_order_depends_target_241009-5430
-  DEFINES = -DPROBLEM_FILE_NAME=\"barkingdog/[0x09]BFS/241009-14442\"
+  DEFINES = -DPROBLEM_FILE_NAME=\"barkingdog/[0x09]BFS/241010-16920\"
   DEP_FILE = CMakeFiles\241009-5430.dir\barkingdog\[0x07]dequeue\241009-5430.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -IC:/Users/alswk/CLionProjects/Algorithm/test/googletest-1.15.2/googletest/include
@@ -331,7 +331,7 @@ build 241009-5430.exe: CXX_EXECUTABLE_LINKER__241009-5430_Debug CMakeFiles/24100
 build cmake_object_order_depends_target_241009-11003: phony || .
 
 build CMakeFiles/241009-11003.dir/barkingdog/[0x07]dequeue/241009-11003.cpp.obj: CXX_COMPILER__241009-11003_unscanned_Debug C$:/Users/alswk/CLionProjects/Algorithm/barkingdog/[0x07]dequeue/241009-11003.cpp || cmake_object_order_depends_target_241009-11003
-  DEFINES = -DPROBLEM_FILE_NAME=\"barkingdog/[0x09]BFS/241009-14442\"
+  DEFINES = -DPROBLEM_FILE_NAME=\"barkingdog/[0x09]BFS/241010-16920\"
   DEP_FILE = CMakeFiles\241009-11003.dir\barkingdog\[0x07]dequeue\241009-11003.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -IC:/Users/alswk/CLionProjects/Algorithm/test/googletest-1.15.2/googletest/include
@@ -366,7 +366,7 @@ build 241009-11003.exe: CXX_EXECUTABLE_LINKER__241009-11003_Debug CMakeFiles/241
 build cmake_object_order_depends_target_241009-14442: phony || .
 
 build CMakeFiles/241009-14442.dir/barkingdog/[0x09]BFS/241009-14442.cpp.obj: CXX_COMPILER__241009-14442_unscanned_Debug C$:/Users/alswk/CLionProjects/Algorithm/barkingdog/[0x09]BFS/241009-14442.cpp || cmake_object_order_depends_target_241009-14442
-  DEFINES = -DPROBLEM_FILE_NAME=\"barkingdog/[0x09]BFS/241009-14442\"
+  DEFINES = -DPROBLEM_FILE_NAME=\"barkingdog/[0x09]BFS/241010-16920\"
   DEP_FILE = CMakeFiles\241009-14442.dir\barkingdog\[0x09]BFS\241009-14442.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -IC:/Users/alswk/CLionProjects/Algorithm/test/googletest-1.15.2/googletest/include
@@ -390,6 +390,76 @@ build 241009-14442.exe: CXX_EXECUTABLE_LINKER__241009-14442_Debug CMakeFiles/241
   TARGET_FILE = 241009-14442.exe
   TARGET_IMPLIB = lib241009-14442.dll.a
   TARGET_PDB = 241009-14442.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 241009-16933
+
+
+#############################################
+# Order-only phony target for 241009-16933
+
+build cmake_object_order_depends_target_241009-16933: phony || .
+
+build CMakeFiles/241009-16933.dir/barkingdog/[0x09]BFS/241009-16933.cpp.obj: CXX_COMPILER__241009-16933_unscanned_Debug C$:/Users/alswk/CLionProjects/Algorithm/barkingdog/[0x09]BFS/241009-16933.cpp || cmake_object_order_depends_target_241009-16933
+  DEFINES = -DPROBLEM_FILE_NAME=\"barkingdog/[0x09]BFS/241010-16920\"
+  DEP_FILE = CMakeFiles\241009-16933.dir\barkingdog\[0x09]BFS\241009-16933.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/alswk/CLionProjects/Algorithm/test/googletest-1.15.2/googletest/include
+  OBJECT_DIR = CMakeFiles\241009-16933.dir
+  OBJECT_FILE_DIR = CMakeFiles\241009-16933.dir\barkingdog\[0x09]BFS
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 241009-16933
+
+
+#############################################
+# Link the executable 241009-16933.exe
+
+build 241009-16933.exe: CXX_EXECUTABLE_LINKER__241009-16933_Debug CMakeFiles/241009-16933.dir/barkingdog/[0x09]BFS/241009-16933.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\241009-16933.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 241009-16933.exe
+  TARGET_IMPLIB = lib241009-16933.dll.a
+  TARGET_PDB = 241009-16933.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 241010-16920
+
+
+#############################################
+# Order-only phony target for 241010-16920
+
+build cmake_object_order_depends_target_241010-16920: phony || .
+
+build CMakeFiles/241010-16920.dir/barkingdog/[0x09]BFS/241010-16920.cpp.obj: CXX_COMPILER__241010-16920_unscanned_Debug C$:/Users/alswk/CLionProjects/Algorithm/barkingdog/[0x09]BFS/241010-16920.cpp || cmake_object_order_depends_target_241010-16920
+  DEFINES = -DPROBLEM_FILE_NAME=\"barkingdog/[0x09]BFS/241010-16920\"
+  DEP_FILE = CMakeFiles\241010-16920.dir\barkingdog\[0x09]BFS\241010-16920.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/alswk/CLionProjects/Algorithm/test/googletest-1.15.2/googletest/include
+  OBJECT_DIR = CMakeFiles\241010-16920.dir
+  OBJECT_FILE_DIR = CMakeFiles\241010-16920.dir\barkingdog\[0x09]BFS
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 241010-16920
+
+
+#############################################
+# Link the executable 241010-16920.exe
+
+build 241010-16920.exe: CXX_EXECUTABLE_LINKER__241010-16920_Debug CMakeFiles/241010-16920.dir/barkingdog/[0x09]BFS/241010-16920.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\241010-16920.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 241010-16920.exe
+  TARGET_IMPLIB = lib241010-16920.dll.a
+  TARGET_PDB = 241010-16920.exe.dbg
 
 
 #############################################
@@ -541,7 +611,7 @@ build test/googletest-1.15.2/install/strip: phony test/googletest-1.15.2/CMakeFi
 build cmake_object_order_depends_target_gmock: phony || cmake_object_order_depends_target_gtest
 
 build test/googletest-1.15.2/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: CXX_COMPILER__gmock_unscanned_Debug C$:/Users/alswk/CLionProjects/Algorithm/test/googletest-1.15.2/googlemock/src/gmock-all.cc || cmake_object_order_depends_target_gmock
-  DEFINES = -DPROBLEM_FILE_NAME=\"barkingdog/[0x09]BFS/241009-14442\"
+  DEFINES = -DPROBLEM_FILE_NAME=\"barkingdog/[0x09]BFS/241010-16920\"
   DEP_FILE = test\googletest-1.15.2\googlemock\CMakeFiles\gmock.dir\src\gmock-all.cc.obj.d
   FLAGS = -g -std=c++17 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
   INCLUDES = -IC:/Users/alswk/CLionProjects/Algorithm/test/googletest-1.15.2/googlemock/include -IC:/Users/alswk/CLionProjects/Algorithm/test/googletest-1.15.2/googlemock -isystem C:/Users/alswk/CLionProjects/Algorithm/test/googletest-1.15.2/googletest/include -isystem C:/Users/alswk/CLionProjects/Algorithm/test/googletest-1.15.2/googletest
@@ -574,7 +644,7 @@ build lib/libgmock.a: CXX_STATIC_LIBRARY_LINKER__gmock_Debug test/googletest-1.1
 build cmake_object_order_depends_target_gmock_main: phony || cmake_object_order_depends_target_gmock cmake_object_order_depends_target_gtest
 
 build test/googletest-1.15.2/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj: CXX_COMPILER__gmock_main_unscanned_Debug C$:/Users/alswk/CLionProjects/Algorithm/test/googletest-1.15.2/googlemock/src/gmock_main.cc || cmake_object_order_depends_target_gmock_main
-  DEFINES = -DPROBLEM_FILE_NAME=\"barkingdog/[0x09]BFS/241009-14442\"
+  DEFINES = -DPROBLEM_FILE_NAME=\"barkingdog/[0x09]BFS/241010-16920\"
   DEP_FILE = test\googletest-1.15.2\googlemock\CMakeFiles\gmock_main.dir\src\gmock_main.cc.obj.d
   FLAGS = -g -std=c++17 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
   INCLUDES = -isystem C:/Users/alswk/CLionProjects/Algorithm/test/googletest-1.15.2/googlemock/include -isystem C:/Users/alswk/CLionProjects/Algorithm/test/googletest-1.15.2/googlemock -isystem C:/Users/alswk/CLionProjects/Algorithm/test/googletest-1.15.2/googletest/include -isystem C:/Users/alswk/CLionProjects/Algorithm/test/googletest-1.15.2/googletest
@@ -677,7 +747,7 @@ build test/googletest-1.15.2/googlemock/install/strip: phony test/googletest-1.1
 build cmake_object_order_depends_target_gtest: phony || .
 
 build test/googletest-1.15.2/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: CXX_COMPILER__gtest_unscanned_Debug C$:/Users/alswk/CLionProjects/Algorithm/test/googletest-1.15.2/googletest/src/gtest-all.cc || cmake_object_order_depends_target_gtest
-  DEFINES = -DPROBLEM_FILE_NAME=\"barkingdog/[0x09]BFS/241009-14442\"
+  DEFINES = -DPROBLEM_FILE_NAME=\"barkingdog/[0x09]BFS/241010-16920\"
   DEP_FILE = test\googletest-1.15.2\googletest\CMakeFiles\gtest.dir\src\gtest-all.cc.obj.d
   FLAGS = -g -std=c++17 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
   INCLUDES = -IC:/Users/alswk/CLionProjects/Algorithm/test/googletest-1.15.2/googletest/include -IC:/Users/alswk/CLionProjects/Algorithm/test/googletest-1.15.2/googletest
@@ -710,7 +780,7 @@ build lib/libgtest.a: CXX_STATIC_LIBRARY_LINKER__gtest_Debug test/googletest-1.1
 build cmake_object_order_depends_target_gtest_main: phony || cmake_object_order_depends_target_gtest
 
 build test/googletest-1.15.2/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj: CXX_COMPILER__gtest_main_unscanned_Debug C$:/Users/alswk/CLionProjects/Algorithm/test/googletest-1.15.2/googletest/src/gtest_main.cc || cmake_object_order_depends_target_gtest_main
-  DEFINES = -DPROBLEM_FILE_NAME=\"barkingdog/[0x09]BFS/241009-14442\"
+  DEFINES = -DPROBLEM_FILE_NAME=\"barkingdog/[0x09]BFS/241010-16920\"
   DEP_FILE = test\googletest-1.15.2\googletest\CMakeFiles\gtest_main.dir\src\gtest_main.cc.obj.d
   FLAGS = -g -std=c++17 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
   INCLUDES = -isystem C:/Users/alswk/CLionProjects/Algorithm/test/googletest-1.15.2/googletest/include -isystem C:/Users/alswk/CLionProjects/Algorithm/test/googletest-1.15.2/googletest
@@ -815,7 +885,11 @@ build 241009-11003: phony 241009-11003.exe
 
 build 241009-14442: phony 241009-14442.exe
 
+build 241009-16933: phony 241009-16933.exe
+
 build 241009-5430: phony 241009-5430.exe
+
+build 241010-16920: phony 241010-16920.exe
 
 build algorithm: phony libalgorithm.dll
 
@@ -845,7 +919,7 @@ build runTests: phony runTests.exe
 #############################################
 # Folder: C:/Users/alswk/CLionProjects/Algorithm/cmake-build-debug
 
-build all: phony libalgorithm.dll runTests.exe 241001-15665.exe 241001-15666.exe 241003-2493.exe 241003-3015.exe 241007-6549.exe 241009-5430.exe 241009-11003.exe 241009-14442.exe test/googletest-1.15.2/all
+build all: phony libalgorithm.dll runTests.exe 241001-15665.exe 241001-15666.exe 241003-2493.exe 241003-3015.exe 241007-6549.exe 241009-5430.exe 241009-11003.exe 241009-14442.exe 241009-16933.exe 241010-16920.exe test/googletest-1.15.2/all
 
 # =============================================================================
 
