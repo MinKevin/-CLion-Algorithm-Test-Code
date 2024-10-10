@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(gtest_SRC_DIR test/googletest-1.15.2)
 
 # 파일 이름 변경 위치
-set(PROBLEM_FILE_NAME "barkingdog/[0x09]BFS/241009-14442")
+set(PROBLEM_FILE_NAME "barkingdog/[0x09]BFS/241010-16920")
 add_definitions(-DPROBLEM_FILE_NAME="${PROBLEM_FILE_NAME}")
 
 add_subdirectory(${gtest_SRC_DIR})
@@ -28,3 +28,6 @@ add_executable(241009-11003 barkingdog/[0x07]dequeue/241009-11003.cpp)
 
 add_executable(241009-14442 barkingdog/[0x09]BFS/241009-14442.cpp)
 
+
+add_executable(241009-16933 barkingdog/[0x09]BFS/241009-16933.cpp)
+add_executable(241010-16920 barkingdog/[0x09]BFS/241010-16920.cpp)
