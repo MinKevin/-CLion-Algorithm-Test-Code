@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="3" type="long" />
+    <option name="/Default/Housekeeping/OptionsDialog/SelectedPageId/@EntryValue" value="InlayHintsGeneralOptionsPageId" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4A45FDF51AAFB489AAD30FDA5500997/Shortcut/@EntryValue" value="algorithm" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4A45FDF51AAFB489AAD30FDA5500997/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue" value="InCppFile" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4A45FDF51AAFB489AAD30FDA5500997/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4A45FDF51AAFB489AAD30FDA5500997/Applicability/=Live/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4A45FDF51AAFB489AAD30FDA5500997/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4A45FDF51AAFB489AAD30FDA5500997/Text/@EntryValue" value="#include &quot;../algorithm-frame.h&quot;&#10;#include &lt;sstream&gt;&#10;#include &lt;iostream&gt;&#10;&#10;using namespace std;&#10;&#10;void input() {&#10;    &#10;}&#10;&#10;void solution() {&#10;    &#10;}&#10;&#10;void output() {&#10;    &#10;}&#10;&#10;int main() {&#10;    ios::sync_with_stdio(false);&#10;    cin.tie(nullptr);&#10;&#10;    input();&#10;&#10;    solution();&#10;&#10;    output();&#10;}" type="string" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4A45FDF51AAFB489AAD30FDA5500997/Reformat/@EntryValue" value="true" type="bool" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4A45FDF51AAFB489AAD30FDA5500997/ShortenQualifiedReferences/@EntryValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
+    <option name="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4A45FDF51AAFB489AAD30FDA5500997/IsBlessed/@EntryValue" />
+  </component>
   <component name="CMakePythonSetting">
     <option name="pythonIntegrationState" value="YES" />
   </component>

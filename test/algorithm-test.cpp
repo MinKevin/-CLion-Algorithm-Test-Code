@@ -29,7 +29,6 @@ inline std::string &trim(std::string &s, const char *t = " \t\n\r\f\v") {
 TEST(ALGORITHM_TEST, INTEGRATED_TEST) {
     setlocale(LC_ALL, "");
     string fileName = "../" + static_cast<string>(PROBLEM_FILE_NAME).append(".txt");
-    cout << fileName << '\n';
     fstream file(fileName);
 
     string process = "input";
